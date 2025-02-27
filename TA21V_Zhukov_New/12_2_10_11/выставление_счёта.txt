@@ -1,0 +1,19 @@
+Kasutajale tuleb selgelt selgitada, mida ja milleks ta täidab.
+
+Tekstiväljade sisu täitmine näidistega.
+
+Kontrollida e-posti aadressi formaati vastavalt reeglile "@ !<2 tähemärki . !<2 tähemärki . !<2 tähemärki ...".
+
+Vigase sisestuse korral kuvada veateade koos näitega.
+
+Juriidilise aadressi sisestamisel kuvada rippmenüü sarnaste aadressidega.
+
+Lisada täitmisjuhised (näiteks "Summa" ja "Kokku" väljade puhul hüpikaken selgitusega, et need väljad täidetakse automaatselt).
+
+Muuta väljade täitmine kohustuslikuks ning saatmisel kuvada tekstivälja paremal pool hüüumärgi (!) ikoon, millele hiirega liikudes ilmub teade, et väli tuleb täita.
+
+Lisada vormi esitamise nupp, millele vajutades avaneb uus vaheleht täidetud PDF-failiga.
+
+Kasutades lihtsaid sisestusvälju, suunata kasutajat sisestama ainult vajalikke väärtusi ilma lisasümboliteta.
+
+Muuta vormi täitmine kasutajale arusaadavamaks (kujundus, lisatekst).

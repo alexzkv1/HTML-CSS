@@ -1,0 +1,32 @@
+Ülesanne 16. Andurite testimine
+Alexander Zhukov
+Leon Saveljev
+TA-21V
+
+Seadme sisselülitamisel kuvatakse 10 sekundiks teade töö ettevalmistamise kohta.
+
+10 sekundi möödudes ilmub teavitus, milline nupp kinnitab sisestuse (nupp *).
+
+5 sekundi pärast avaneb menüü, kus saab valida töörežiime vahemikus 1 kuni 16.
+
+Valitud on töörežiim 16. Ekraanidel kuvatakse palve valida suund.
+
+Suuna valimisel kuvatakse ekraanidel 5 sekundi jooksul teavitus,
+mis selgitab, kuidas kasutada töö peatamise režiimi (vajutada ja hoida all nuppe # ja *).
+Seejärel liigub käru valitud suunas kuni äärmise asendini
+ning ekraanidel kuvatakse teade, milles palutakse pöörata pöördenurkandurit suunas lõpuni.
+
+Protsessi lõppedes kuvatakse ekraanidel teade:
+
+Kui pöördenurkandur näitab püsivat väärtust, kuid programm ei saa signaali äärmise parema asendi andurilt,
+peatab programm mootori ja kuvab veateate: "Left/Right Button Error".
+Kui pöördenurkandur näitab püsivat väärtust ja programm saab signaali äärmise parema asendi andurilt,
+peatab programm kärumootori ja kuvab teate: "Left/Right Button Ok".
+5 sekundi möödudes kuvatakse ekraanidel töörežiimi lõpetamise menüü, kus on järgmised valikud:
+1 - Väljumine: Seade lülitatakse välja ja ekraanidele ilmub hüvastijätuteade.
+2 - Kordamine: Sama režiimi uuesti käivitamine.
+3 - Menüü: Töörežiimi valiku menüüsse naasmine.
+
+Kui programm peatatakse (vajutades ja hoides all nuppe #+*),
+peab mootor sujuvalt peatuma ning ekraanidele ilmub töö peatamise teade.
+Pärast seiskamist kuvatakse ekraanidel töö lõpetamise menüü.

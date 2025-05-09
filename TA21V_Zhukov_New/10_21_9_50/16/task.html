@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Stsenaarium, prototüübid ja prototüüpide kaart ühe slaideri funktsiooni jaoks. (Arduino)</h1>
+    </div>
+    <div class="content">
+        <p>Seadme sisselülitamisel kuvatakse 10 sekundiks teade töö ettevalmistamise kohta.</br>
+
+            10 sekundi möödudes ilmub teavitus, milline nupp kinnitab sisestuse (nupp *).</br>
+            
+            5 sekundi pärast avaneb menüü, kus saab valida töörežiime vahemikus 1 kuni 16.</br>
+            
+            Valitud on töörežiim 16. Ekraanidel kuvatakse palve valida suund.</br>
+            
+            Suuna valimisel kuvatakse ekraanidel 5 sekundi jooksul teavitus,</br>
+            mis selgitab, kuidas kasutada töö peatamise režiimi (vajutada ja hoida all nuppe # ja *).</br>
+            Seejärel liigub käru valitud suunas kuni äärmise asendini</br>
+            ning ekraanidel kuvatakse teade, milles palutakse pöörata pöördenurkandurit suunas lõpuni.</br>
+            
+            Protsessi lõppedes kuvatakse ekraanidel teade:</br>
+            
+            Kui pöördenurkandur näitab püsivat väärtust, kuid programm ei saa signaali äärmise parema asendi andurilt,</br>
+            peatab programm mootori ja kuvab veateate: "Left/Right Button Error".</br>
+            Kui pöördenurkandur näitab püsivat väärtust ja programm saab signaali äärmise parema asendi andurilt,</br>
+            peatab programm kärumootori ja kuvab teate: "Left/Right Button Ok".</br>
+            5 sekundi möödudes kuvatakse ekraanidel töörežiimi lõpetamise menüü, kus on järgmised valikud:</br>
+            1 - Väljumine: Seade lülitatakse välja ja ekraanidele ilmub hüvastijätuteade.</br>
+            2 - Kordamine: Sama režiimi uuesti käivitamine.</br>
+            3 - Menüü: Töörežiimi valiku menüüsse naasmine.</br>
+            
+            Kui programm peatatakse (vajutades ja hoides all nuppe #+*),</br>
+            peab mootor sujuvalt peatuma ning ekraanidele ilmub töö peatamise teade.</br>
+            Pärast seiskamist kuvatakse ekraanidel töö lõpetamise menüü.</br></p>
+        </div>
+</body>
+</html>

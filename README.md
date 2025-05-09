@@ -122,3 +122,7 @@ Hindamine:
 •	Programmeerimine II
 •	Kasutajaliidese disain
 
+
+Iga Python-faili on võimalik testida Thonny rakenduses.
+
+HTML/CSS-i hinnang anti töö kujunduse eest, kasutades HTML-i ja CSS-i.
